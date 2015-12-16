@@ -42,8 +42,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>c:\dev\GL;c:\dev\glew-1.10.0\include;c:\dev\SDL2-2.0.0\include;c:\dev\glm-0.9.4.4;$(IncludePath)</IncludePath>
-    <LibraryPath>c:\dev\glew-1.10.0\lib;c:\dev\SDL2-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>dev\GL;dev\glew-1.10.0\include;dev\SDL2-2.0.0\include;dev\glm-0.9.4.4;$(IncludePath)</IncludePath>
+    <LibraryPath>dev\glew-1.10.0\lib;dev\SDL2-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -56,12 +56,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\dev\SDL2 plugins\include;C:\dev\SDL2-2.0.3\include;C:\dev\glew-1.11.0\include;C:\dev\glm-0.9.5.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>dev\SDL2 plugins\include;dev\SDL2-2.0.3\include;dev\glew-1.11.0\include;dev\glm-0.9.5.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\dev\SDL2 plugins\lib\x86;C:\dev\SDL2-2.0.3\lib\x86;C:\dev\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>dev\SDL2 plugins\lib\x86;dev\SDL2-2.0.3\lib\x86;dev\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
