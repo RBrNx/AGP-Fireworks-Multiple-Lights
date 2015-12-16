@@ -1,0 +1,36 @@
+﻿Build started 16/12/2015 21:36:35.
+     1>Project "D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Fireworks + Multiple Lights\Fireworks + Multiple Lights.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\dev\SDL2 plugins\include" /I"C:\dev\SDL2-2.0.3\include" /I"C:\dev\glew-1.11.0\include" /I"C:\dev\glm-0.9.5.4" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Lights.cpp main.cpp particleArray.cpp rt3d.cpp rt3dObjLoader.cpp
+         rt3dObjLoader.cpp
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\rt3dobjloader.cpp(197): warning C4018: '<': signed/unsigned mismatch
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\rt3dobjloader.cpp(135): warning C4101: 'z': unreferenced local variable
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\rt3dobjloader.cpp(135): warning C4101: 'y': unreferenced local variable
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\rt3dobjloader.cpp(135): warning C4101: 'x': unreferenced local variable
+         rt3d.cpp
+         particleArray.cpp
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\particlearray.cpp(17): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\particlearray.cpp(20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\particlearray.cpp(32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         main.cpp
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(50): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(217): warning C4018: '<': signed/unsigned mismatch
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(258): warning C4018: '<': signed/unsigned mismatch
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(378): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(657): warning C4018: '<': signed/unsigned mismatch
+     1>d:\my documents\visual studio 2015\projects\fireworks + multiple lights\fireworks + multiple lights\main.cpp(703): warning C4018: '<': signed/unsigned mismatch
+         Lights.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Debug\Fireworks + Multiple Lights.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\dev\SDL2 plugins\lib\x86" /LIBPATH:"C:\dev\SDL2-2.0.3\lib\x86" /LIBPATH:"C:\dev\glew-1.11.0\lib\Release\Win32" SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Debug\Fireworks + Multiple Lights.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Debug\Fireworks + Multiple Lights.lib" /MACHINE:X86 Debug\Lights.obj
+         Debug\main.obj
+         Debug\particleArray.obj
+         Debug\rt3d.obj
+         Debug\rt3dObjLoader.obj
+         Fireworks + Multiple Lights.vcxproj -> D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Debug\Fireworks + Multiple Lights.exe
+     1>Done Building Project "D:\My Documents\Visual Studio 2015\Projects\Fireworks + Multiple Lights\Fireworks + Multiple Lights\Fireworks + Multiple Lights.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.95
