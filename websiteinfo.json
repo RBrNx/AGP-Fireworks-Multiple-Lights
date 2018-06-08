@@ -1,7 +1,7 @@
 {
   "show": true,
-  "image-main": "img/fireworks.png",
-  "image-drop": "img/fireworks_2.png",
+  "imageMain": "img/fireworks.png",
+  "imageDrop": "img/fireworks_2.png",
   "title": "Particle System with Multiple Lights",
   "description": "A 3D Environment showcasing particle Fireworks, and multiple lights."
 }
